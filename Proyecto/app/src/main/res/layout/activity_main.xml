@@ -1,12 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#FAFAFA"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="7dp"
+        android:layout_gravity="left|top"
+        android:elevation="2dp"
+        android:id="@+id/persistentSearch">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/nav_btn"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:foregroundTint="#8A000000"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:foreground="@drawable/ic_menu_black_24dp"/>
+
+        <EditText
+            android:id="@+id/buscarTxt"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8.5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Necesitas ayuda?? Apretame"
+            android:textColorHint="#80000000"
+            android:background="@android:color/transparent"
+            android:nextFocusUp="@id/buscarTxt"
+            android:nextFocusLeft="@id/buscarTxt" />
+
+        <!-- TODO agregar microfonito y habla -->
+    </LinearLayout>
+
+
+
+
 
 <android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
 
     android:id="@+id/CoordinadorLayout"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:background="#D5521F"
     tools:context=".MainActivity">
 
     <android.support.design.widget.AppBarLayout
@@ -41,4 +95,8 @@
     <!-- Fin del ViewPager -->
 
 
+
+
 </android.support.design.widget.CoordinatorLayout>
+
+    </FrameLayout>
