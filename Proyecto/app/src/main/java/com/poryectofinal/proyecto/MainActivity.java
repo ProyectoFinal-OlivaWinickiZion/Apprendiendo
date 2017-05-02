@@ -32,18 +32,18 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setTabGravity(TabLayout.GRAVITY_CENTER);
         tabLayout.setTabMode(TabLayout.MODE_FIXED);
 
-        int contadorImagen=0;
+        int contadorImagen = 0;
 
         while (contadorImagen <= 2) {
 
             switch (contadorImagen) {
                 case (0):
-                   // CargarImagen.setImageResource(R.drawable.whatsapp);
+                    // CargarImagen.setImageResource(R.drawable.whatsapp);
                     break;
 
                 case (1):
-                    CargarImagen = (ImageButton) findViewById(R.id.MensajesTexto);
-                    CargarImagen.setImageResource(R.drawable.mensajes);
+                    //CargarImagen = (ImageButton) findViewById(R.id.MensajesTexto);
+                    // CargarImagen.setImageResource(R.drawable.mensajes);
                     break;
             }
 
@@ -66,38 +66,34 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
-    public void CursosMensajeria(View Vistazo)
-    {
+    public void CursosMensajeria(View Vistazo) {
         // Lo que estoy tratando de hacer es que si ninguna aplicacion de mensajeria esta instalada le tire el mensaje
 
         ImageButton ADondeVoy;
-        ADondeVoy=(ImageButton)Vistazo;
-       // int Boton = ADondeVoy.getId();
-       // ADondeVoy=(ImageButton)findViewById(Boton);
+        ADondeVoy = (ImageButton) Vistazo;
+        // int Boton = ADondeVoy.getId();
+        // ADondeVoy=(ImageButton)findViewById(Boton);
 
-        if (ADondeVoy.getId() == R.id.MensajesTexto)
-        {
-            // Lo manda a la activity donde tiene todas las ayudas de whatsapp en este caso
-        }
-        else
-        {
-            if (ADondeVoy.getId() == R.id.MensajesTexto)
-            {
-                //Lo mismo que el if de arriba
+        if (ADondeVoy.getId() == R.id.WhatsApp) {
+            Intent Destino;
+            Destino = new Intent(this, Cursos.class);
+            //Aca tendria que haber un bundle o algo que indique a que curso de todos va
+            startActivity(Destino);
+        } else {
+            if (ADondeVoy.getId() == R.id.MensajesTexto) {
+                Intent Destino;
+                Destino = new Intent(this, Cursos.class);
+                //Aca tendria que haber un bundle o algo que indique a que curso de todos va
+                startActivity(Destino);
+            } else {
+                if (ADondeVoy.isEnabled() == false) {
+                    Toast Mensaje;
+                    Mensaje = Toast.makeText(getApplicationContext(), "Usted no tiene aplicaciones de Mensajeria, le recomendamos estas:", Toast.LENGTH_LONG);
+                    Mensaje.show();
+                }
             }
-            else
-            {
-               // if (ADondeVoy.isEnabled() == false)
-                Toast Mensaje;
-                Mensaje =Toast.makeText(getApplicationContext(), "Usted no tiene aplicaciones de Mensajeria, le recomendamos estas:", Toast.LENGTH_LONG);
-                Mensaje.show();
-            }
         }
+
+
     }
-
-
-
-
 }
