@@ -1,18 +1,79 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
 <LinearLayout
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/s1_textview"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:textColor="@color/material_grey_600"
-        android:textStyle="bold"
-        android:textSize="48dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+
+    <ImageButton
+        android:id="@+id/curso"
+        android:layout_width="282dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="115dp"
+        android:foreground="@drawable/audioxwppok" />
+
+    <ImageButton
+        android:id="@+id/curso1"
+        android:layout_width="282dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:foreground="@drawable/imagenxwpp" />
+
+    <ImageButton
+        android:id="@+id/curso2"
+        android:layout_width="282dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:foreground="@drawable/escribirmensajewppok" />
+
+    <ImageButton
+        android:id="@+id/curso3"
+        android:layout_width="282dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:foreground="@drawable/audioxwppok" />
+
+    <ImageButton
+        android:id="@+id/curso4"
+        android:layout_width="282dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:foreground="@drawable/imagenxwpp" />
+
+    <ImageButton
+        android:id="@+id/curso5"
+        android:layout_width="282dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:foreground="@drawable/escribirmensajewppok" />
+
+    <ImageButton
+        android:id="@+id/curso6"
+        android:layout_width="282dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:foreground="@drawable/imagenxwpp" />
+
+
 
 </LinearLayout>
+
+    </ScrollView>

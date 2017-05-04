@@ -57,7 +57,7 @@
     android:id="@+id/CoordinadorLayout"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:background="#D5521F"
+
     tools:context=".MainActivity">
 
     <android.support.design.widget.AppBarLayout

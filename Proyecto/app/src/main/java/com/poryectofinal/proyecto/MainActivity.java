@@ -74,26 +74,13 @@ public class MainActivity extends AppCompatActivity {
         // int Boton = ADondeVoy.getId();
         // ADondeVoy=(ImageButton)findViewById(Boton);
 
-        if (ADondeVoy.getId() == R.id.WhatsApp) {
             Intent Destino;
             Destino = new Intent(this, Cursos.class);
             //Aca tendria que haber un bundle o algo que indique a que curso de todos va
             startActivity(Destino);
-        } else {
-            if (ADondeVoy.getId() == R.id.MensajesTexto) {
-                Intent Destino;
-                Destino = new Intent(this, Cursos.class);
-                //Aca tendria que haber un bundle o algo que indique a que curso de todos va
-                startActivity(Destino);
-            } else {
-                if (ADondeVoy.isEnabled() == false) {
-                    Toast Mensaje;
-                    Mensaje = Toast.makeText(getApplicationContext(), "Usted no tiene aplicaciones de Mensajeria, le recomendamos estas:", Toast.LENGTH_LONG);
-                    Mensaje.show();
+
+        //           Toast Mensaje;
+          //          Mensaje = Toast.makeText(getApplicationContext(), "Usted no tiene aplicaciones de Mensajeria, le recomendamos estas:", Toast.LENGTH_LONG);
+            //        Mensaje.show();
                 }
             }
-        }
-
-
-    }
-}

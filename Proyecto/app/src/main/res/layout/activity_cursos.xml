@@ -54,8 +54,13 @@
         android:id="@+id/CoordinadorLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#D5521F"
         tools:context=".MainActivity">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
 
         <android.support.design.widget.AppBarLayout
             android:id="@+id/AppbarPrincipal"
@@ -81,58 +86,94 @@
         <!-- Fin de la Appbar -->
 
         <!-- Inicio del ViewPager -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
 
         <ImageButton
             android:id="@+id/curso1"
-            android:layout_width="75dp"
-            android:layout_height="66dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="110dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="170dp"
-            android:text="Como mandar" />
+            android:layout_width="282dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="115dp"
+            android:foreground="@drawable/escribirmensajewppok" />
 
         <ImageButton
             android:id="@+id/curso2"
-            android:layout_width="75dp"
-            android:layout_height="66dp"
-            android:layout_marginLeft="120dp"
-            android:layout_marginTop="110dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="118dp"
-            android:layout_marginTop="170dp"
-            android:text="Como mandar" />
+            android:layout_width="282dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:foreground="@drawable/audioxwppok" />
 
         <ImageButton
             android:id="@+id/curso3"
-            android:layout_width="75dp"
-            android:layout_height="66dp"
-            android:layout_marginLeft="230dp"
-            android:layout_marginTop="110dp" />
+            android:layout_width="282dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:foreground="@drawable/escribirmensajewppok" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="225dp"
-            android:layout_marginTop="170dp"
-            android:text="Como mandar" />
+        <ImageButton
+            android:id="@+id/curso4"
+            android:layout_width="282dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:foreground="@drawable/audioxwppok" />
 
-        <android.support.v4.view.ViewPager
-            android:id="@+id/ViewPagerPrincipal"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+        <ImageButton
+            android:id="@+id/curso5"
+            android:layout_width="282dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:foreground="@drawable/escribirmensajewppok" />
+
+        <ImageButton
+            android:id="@+id/curso6"
+            android:layout_width="282dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:foreground="@drawable/audioxwppok" />
+
+        <ImageButton
+            android:id="@+id/curso7"
+            android:layout_width="282dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:foreground="@drawable/escribirmensajewppok" />
+
+        <ImageButton
+            android:id="@+id/curso8"
+            android:layout_width="282dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:foreground="@drawable/audioxwppok" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
 
 
         <!-- Fin del ViewPager -->
+    </LinearLayout>
 
+    </ScrollView>
 
     </android.support.design.widget.CoordinatorLayout>
 
 </FrameLayout>
+
