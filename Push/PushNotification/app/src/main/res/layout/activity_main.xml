@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0084FF"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Activities.MainActivity" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Hint  \nDouble tap on icon launcher to hide it \n Click the notification to restart launcher"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#eeecec"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/textView2"
+        android:onClick="AlCurso"
+        android:background="#34495e"
+        android:text="Curso 1"
+        android:tag="1"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:tag="2"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/textView2"
+        android:onClick="AlCurso"
+        android:background="#34495e"
+        android:text="Curso 2"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tag="3"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/textView2"
+        android:onClick="AlCurso"
+        android:background="#34495e"
+        android:text="Curso 3"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/button4"
+        android:tag="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/textView2"
+        android:onClick="AlCurso"
+        android:background="#34495e"
+        android:text="Curso 4"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/button5"
+        android:tag="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/textView2"
+        android:onClick="AlCurso"
+        android:background="#34495e"
+        android:text="Curso 5"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/button6"
+        android:tag="6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/textView2"
+        android:onClick="AlCurso"
+        android:background="#34495e"
+        android:text="Curso 6"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/button7"
+        android:tag="7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/textView2"
+        android:onClick="AlCurso"
+        android:background="#34495e"
+        android:text="Curso 7"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/button8"
+        android:tag="8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/textView2"
+        android:onClick="AlCurso"
+        android:background="#34495e"
+        android:text="Curso 8"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/button9"
+        android:tag="9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/textView2"
+        android:onClick="AlCurso"
+        android:background="#34495e"
+        android:text="Curso 9"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/button10"
+        android:tag="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/textView2"
+        android:onClick="AlCurso"
+        android:background="#34495e"
+        android:text="Curso 10"
+        android:textColor="#FFF" />
+
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#eeecec" />
+
+</LinearLayout>

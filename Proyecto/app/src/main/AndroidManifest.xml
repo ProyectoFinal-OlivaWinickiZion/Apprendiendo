@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Cursos"></activity>
+        <activity android:name=".Cursos" />
+        <activity
+            android:name=".ActividadPrincipal"
+            android:label="@string/title_activity_actividad_principal"
+            android:theme="@style/MiTema"></activity>
     </application>
 
 </manifest>

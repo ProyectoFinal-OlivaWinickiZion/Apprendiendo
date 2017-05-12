@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         // ADondeVoy=(ImageButton)findViewById(Boton);
 
             Intent Destino;
-            Destino = new Intent(this, Cursos.class);
+            Destino = new Intent(this, ActividadPrincipal.class);
             //Aca tendria que haber un bundle o algo que indique a que curso de todos va
             startActivity(Destino);
 

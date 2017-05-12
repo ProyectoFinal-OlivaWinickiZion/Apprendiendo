@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_inicio"
+            android:checked="true"
+            android:icon="@drawable/ic_action_accept"
+            android:title="Opcion4" />
+        <item
+            android:id="@+id/item_cuenta"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Opcion3" />
+        <item
+            android:id="@+id/item_categorias"
+            android:icon="@drawable/ic_drawer"
+            android:title="Opcion2" />
+        <item
+            android:id="@+id/item_configuracion"
+            android:icon="@drawable/ic_communities"
+            android:title="Opcion1" />
+    </group>
+
+</menu>
