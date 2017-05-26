@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_previous.png",
+        "source": "E:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\src\\main\\res\\mipmap-hdpi\\ic_previous.png"
+    },
+    {
+        "merged": "E:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
+        "source": "E:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "E:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_play.png",
+        "source": "E:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\src\\main\\res\\mipmap-hdpi\\ic_play.png"
+    },
+    {
+        "merged": "E:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_play_next.png",
+        "source": "E:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\src\\main\\res\\mipmap-hdpi\\ic_play_next.png"
+    }
+]

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#FAFAFA"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="7dp"
+        android:layout_gravity="left|top"
+        android:elevation="2dp"
+        android:id="@+id/persistentSearch">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/nav_btn"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:foregroundTint="#8A000000"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:foreground="@drawable/ic_menu_black_24dp"/>
+
+        <EditText
+            android:id="@+id/buscarTxt"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8.5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Busca cursos aca"
+            android:textColorHint="#80000000"
+            android:background="@android:color/transparent"
+            android:nextFocusUp="@id/buscarTxt"
+            android:nextFocusLeft="@id/buscarTxt" />
+
+        <!-- TODO agregar microfonito y habla -->
+    </LinearLayout>
+
+
+    <android.support.design.widget.CoordinatorLayout
+
+        android:id="@+id/CoordinadorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/AppbarPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Inicio de la Toolbar-->
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/ToolbarPrincipal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!-- Fin de la Toolbar-->
+
+            <!-- Inicio de la TabLayout-->
+            <android.support.design.widget.TabLayout
+                android:id="@+id/TabLayoutPrincipal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!-- Fin de la TabLayout-->
+
+        </android.support.design.widget.AppBarLayout>
+        <!-- Fin de la Appbar -->
+
+        <!-- Inicio del ViewPager -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <ImageButton
+            android:id="@+id/notify_me"
+            android:layout_width="282dp"
+            android:layout_height="60dp"
+            android:onClick="Tutorial"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="115dp"
+            android:foreground="@drawable/escribirmensajewppok" />
+
+        <ImageButton
+            android:id="@+id/curso2"
+            android:layout_width="282dp"
+            android:onClick="Tutorial"
+            android:layout_height="60dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:foreground="@drawable/audioxwppok" />
+
+        <ImageButton
+            android:id="@+id/curso3"
+            android:layout_width="282dp"
+            android:layout_height="60dp"
+            android:onClick="Tutorial"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:foreground="@drawable/escribirmensajewppok" />
+
+        <ImageButton
+            android:id="@+id/curso4"
+            android:layout_width="282dp"
+            android:layout_height="60dp"
+            android:onClick="Tutorial"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:foreground="@drawable/audioxwppok" />
+
+        <ImageButton
+            android:id="@+id/curso5"
+            android:layout_width="282dp"
+            android:layout_height="60dp"
+            android:onClick="Tutorial"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:foreground="@drawable/escribirmensajewppok" />
+
+        <ImageButton
+            android:id="@+id/curso6"
+            android:layout_width="282dp"
+            android:onClick="Tutorial"
+            android:layout_height="60dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:foreground="@drawable/audioxwppok" />
+
+        <ImageButton
+            android:id="@+id/curso7"
+            android:layout_width="282dp"
+            android:layout_height="60dp"
+            android:onClick="Tutorial"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:foreground="@drawable/escribirmensajewppok" />
+
+        <ImageButton
+            android:id="@+id/curso8"
+            android:layout_width="282dp"
+            android:onClick="Tutorial"
+            android:layout_height="60dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:foreground="@drawable/audioxwppok" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+
+        <!-- Fin del ViewPager -->
+    </LinearLayout>
+
+    </ScrollView>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</FrameLayout>
+

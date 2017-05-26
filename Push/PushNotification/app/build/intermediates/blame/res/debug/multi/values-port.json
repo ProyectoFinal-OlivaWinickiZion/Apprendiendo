@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "Z:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Push\\PushNotification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "C:\\Users\\42647486\\.android\\build-cache\\ea58ab97e8ae9222c4bfe50090ffd5f2dc49fa20\\output\\res\\values-port\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 276,
+                        "endColumn": 55,
+                        "endOffset": 327
+                    }
+                }
+            }
+        ]
+    }
+]

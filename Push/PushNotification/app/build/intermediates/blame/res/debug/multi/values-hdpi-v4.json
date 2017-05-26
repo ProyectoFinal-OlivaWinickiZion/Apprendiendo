@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "Z:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Push\\PushNotification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 13,
+                    "endOffset": 325
+                },
+                "from": {
+                    "file": "C:\\Users\\42647486\\.android\\build-cache\\ea58ab97e8ae9222c4bfe50090ffd5f2dc49fa20\\output\\res\\values-hdpi-v4\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endLine": 8,
+                        "endColumn": 13,
+                        "endOffset": 552
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,4 @@
+#Fri May 26 08:00:55 ART 2017
+base.0=E\:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6
+renamed.0=classes.dex
+file.0=E\:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!--Root container-->
+    <RelativeLayout
+        android:id="@+id/root_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <!--View while view is collapsed-->
+        <RelativeLayout
+            android:id="@+id/collapse_view"
+            android:layout_width="wrap_content"
+            android:visibility="visible"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--Icon of floating widget -->
+            <ImageView
+                android:id="@+id/collapsed_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/solebrity_icon_light"
+                tools:ignore="ContentDescription"/>
+
+            <!--Close button-->
+            <ImageView
+                android:id="@+id/close_btn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="40dp"
+                android:src="@drawable/ic_close"
+                tools:ignore="ContentDescription"/>
+        </RelativeLayout>
+
+        <!--View while view is expanded-->
+        <LinearLayout
+            android:id="@+id/expanded_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!--Album image for the song currently playing.-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_drawer"
+                android:onClick="VolverACursos"
+                android:id="@+id/open_button"
+                tools:ignore="ContentDescription"/>
+
+            <ImageView
+                android:id="@+id/close_button"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="220dp"
+                android:src="@drawable/ic_close"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Paso"
+                android:textColor="@color/md_black_1000"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="5dp"
+                android:text="holaaaaaaaaaaafeuihfeui9hfuiehuewhufiefeergfewaa"
+                android:textSize="20dp"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/EjemploPaso"/>
+
+
+            <!-- Es del logo -->
+            <!--Previous button-->
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

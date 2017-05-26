@@ -1,0 +1,84 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml
+		INJECTED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml
+		INJECTED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml
+		INJECTED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:5:22-75
+application
+ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:7:5-27:19
+MERGED from [com.android.support:cardview-v7:23.0.1] D:\Users\42647486.ALMAGRO\.android\build-cache\1ab65c6fbf86cdcb11f8d36cf03deba363fe8ca2\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.4.0] D:\Users\42647486.ALMAGRO\.android\build-cache\fd2d80ef87d3140303d21fdddf24a97b6b4e8195\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\Users\42647486.ALMAGRO\.android\build-cache\7b9b9caffdedcd4df8bedd2959aee4467023b4b9\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\Users\42647486.ALMAGRO\.android\build-cache\06b7ddd7caf844405e2adfddcae26cee655cb9e1\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\Users\42647486.ALMAGRO\.android\build-cache\37cdf08589276f54bb08fd741be17a16cae9bb40\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\Users\42647486.ALMAGRO\.android\build-cache\02e32ab4b34cd19b246d26d01115051e110f0d9d\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] D:\Users\42647486.ALMAGRO\.android\build-cache\0052124099000756449dfd562611e71fbe678218\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:10:9-44
+	android:supportsRtl
+		ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:12:9-35
+	android:roundIcon
+		ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:11:9-54
+	android:allowBackup
+		ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:13:9-38
+activity#com.poryectofinal.proyecto.MainActivity
+ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:14:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.poryectofinal.proyecto.Cursos
+ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:21:9-44
+	android:name
+		ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:21:19-41
+service#com.poryectofinal.proyecto.FloatingViewService
+ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:23:9-26:35
+	android:enabled
+		ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:25:9-31
+	android:exported
+		ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml:24:9-70
+uses-sdk
+INJECTED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:cardview-v7:23.0.1] D:\Users\42647486.ALMAGRO\.android\build-cache\1ab65c6fbf86cdcb11f8d36cf03deba363fe8ca2\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.4.0] D:\Users\42647486.ALMAGRO\.android\build-cache\fd2d80ef87d3140303d21fdddf24a97b6b4e8195\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] D:\Users\42647486.ALMAGRO\.android\build-cache\e04dcda576f89966ea2653135a80590ad1f4cb50\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\Users\42647486.ALMAGRO\.android\build-cache\7b9b9caffdedcd4df8bedd2959aee4467023b4b9\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\Users\42647486.ALMAGRO\.android\build-cache\06b7ddd7caf844405e2adfddcae26cee655cb9e1\output\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\Users\42647486.ALMAGRO\.android\build-cache\37cdf08589276f54bb08fd741be17a16cae9bb40\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\Users\42647486.ALMAGRO\.android\build-cache\02e32ab4b34cd19b246d26d01115051e110f0d9d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] D:\Users\42647486.ALMAGRO\.android\build-cache\0052124099000756449dfd562611e71fbe678218\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] D:\Users\42647486.ALMAGRO\.android\build-cache\7b9b9caffdedcd4df8bedd2959aee4467023b4b9\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml
+		INJECTED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml
+		INJECTED from E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\src\main\AndroidManifest.xml
