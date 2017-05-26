@@ -196,6 +196,8 @@ public class FloatingViewService extends Service {
     {
         Pasos(PorQuePasoVoy);
         PorQuePasoVoy++;
+        
+
     }
     public void PasoAnterior(View Vistazo)
     {
