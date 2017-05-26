@@ -11,12 +11,15 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
-import android.widget.Toast;
+import android.widget.Switch;
+import android.widget.TextView;
+
 
 
 public class FloatingViewService extends Service {
     private WindowManager mWindowManager;
     private View mFloatingView;
+    int PorQuePasoVoy=0;
 
     public FloatingViewService() {
     }
@@ -32,6 +35,9 @@ public class FloatingViewService extends Service {
         //Inflate the floating view layout we created
         mFloatingView = LayoutInflater.from(this).inflate(R.layout.layout_floating_widget, null);
 
+        TextView Paso0 = (TextView)this.mFloatingView.findViewById(R.id.Paso);
+        Paso0.setText("Eliga el contacto al que quiere mandarle la nota de voz (audio)");
+        PorQuePasoVoy++;
         //Add the view to the window.
         final WindowManager.LayoutParams params = new WindowManager.LayoutParams(
                 WindowManager.LayoutParams.WRAP_CONTENT,
@@ -105,7 +111,7 @@ public class FloatingViewService extends Service {
             @Override
             public void onClick(View view) {
                 //Open the application  click.
-                Intent intent = new Intent(FloatingViewService.this, MainActivity.class);
+                Intent intent = new Intent(FloatingViewService.this, Cursos.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(intent);
 
@@ -183,5 +189,35 @@ public class FloatingViewService extends Service {
     public void onDestroy() {
         super.onDestroy();
         if (mFloatingView != null) mWindowManager.removeView(mFloatingView);
+    }
+
+
+    public void PasoSiguiente(View Vistazo)
+    {
+        Pasos(PorQuePasoVoy);
+        PorQuePasoVoy++;
+    }
+    public void PasoAnterior(View Vistazo)
+    {
+        PorQuePasoVoy--;
+        Pasos(PorQuePasoVoy);
+    }
+
+    public void Pasos(int Contador)
+    {
+        TextView PasoPorPasoT = (TextView)this.mFloatingView.findViewById(R.id.Paso);
+
+
+        switch(Contador)
+        {
+            case 1:
+                PasoPorPasoT.setText("Mantenga presionado el boton del microfono ubicado en el lado derecho inferior");
+
+                break;
+            case 2:
+                PasoPorPasoT.setText("Suelte el boton para enviar el mensaje, si lo quiere cancelar deslize el dedo hacia la izquierda teniendo el boton presionado");
+
+                break;
+        }
     }
 }

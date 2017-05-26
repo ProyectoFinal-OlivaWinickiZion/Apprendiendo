@@ -1,4 +1,4 @@
-#Fri May 26 08:56:34 ART 2017
+#Fri May 26 11:49:37 ART 2017
 base.0=E\:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ee4affd9658227cbbd6e75b10641b56a74ed0915
 renamed.1=classes2.dex
 renamed.0=classes.dex
