@@ -1,0 +1,7 @@
+#Tue May 23 10:29:38 ART 2017
+base.0=Z\:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a3b17d72c8dc50067fa5429ad97f3a1ad2a5845b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=Z\:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b2dd3a88c1a4535c118355f635b89367852c9d09\\classes.dex
+base.1=Z\:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b2dd3a88c1a4535c118355f635b89367852c9d09
+file.0=Z\:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a3b17d72c8dc50067fa5429ad97f3a1ad2a5845b\\classes.dex

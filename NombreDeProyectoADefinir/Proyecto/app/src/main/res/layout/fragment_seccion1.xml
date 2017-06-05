@@ -1,0 +1,95 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/s1_textview"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="48dp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="serif"
+        android:text="Mensajeria"
+        android:textSize="30dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/start_service"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/imageneswppok"
+        android:onClick="CursosMensajeria" />
+
+    <ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:id="@+id/start_service1"
+    android:layout_marginTop="9dp"
+    android:background="@drawable/mensajeriaok"
+    android:onClick="CursosMensajeria"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/start_service2"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/imagenesfacebookmsgok"
+        android:onClick="CursosMensajeria"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Redes Sociales"
+        android:textSize="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="serif"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/WhatsApp1"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/imageneswppok"
+        android:onClick="CursosMensajeria"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/MensajesTexto1"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/mensajeriaok"
+        android:onClick="CursosMensajeria"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/Facebook1"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/imagenesfacebookmsgok"
+        android:onClick="CursosMensajeria"/>
+
+
+
+</LinearLayout>
+
+    </ScrollView>
