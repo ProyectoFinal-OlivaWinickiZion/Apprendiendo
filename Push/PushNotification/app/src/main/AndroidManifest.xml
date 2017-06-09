@@ -14,22 +14,11 @@ android:versionName="3.0" >
 
 <application
     android:allowBackup="true"
-    android:icon="@drawable/floating2"
     android:label="@string/app_name"
-    android:theme="@style/AppTheme" >
-    <activity
-        android:name="nw.pushnotification.Activities.Configurations"
-        android:label="@string/app_name"
-        android:screenOrientation="portrait">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
+    android:theme="@style/AppBaseTheme" >
 
     <service
-        android:name="nw.pushnotification.Service.ServiceFloating"
+        android:name="nw.pushnotification.Activities.ServiceFloating"
         android:exported="true" />
 
     <activity

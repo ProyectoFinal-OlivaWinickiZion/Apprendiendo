@@ -20,7 +20,7 @@
     </style>
 
     <style name="MiTema.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
     <style name="MiTema.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
+

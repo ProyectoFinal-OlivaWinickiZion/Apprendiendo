@@ -1,55 +1,53 @@
 package com.poryectofinal.proyecto;
 
 import android.content.Intent;
-import android.support.annotation.BoolRes;
-import android.support.design.widget.TabLayout;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.view.ViewPager;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.Toast;
 
-import static com.poryectofinal.proyecto.R.id.text;
-
 public class MainActivity extends AppCompatActivity {
+
+    DrawerLayout drawerLayout;
+    Toolbar toolbar;
+    ActionBar actionBar;
     private Adaptador_ViewPagerPrincipal Adaptador_ViewPagerPrincipal;
     private ViewPager ViewPager;
-    ImageButton CargarImagen;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.ToolbarPrincipal);
-        setSupportActionBar(toolbar);
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.TabLayoutPrincipal);
-        tabLayout.setTabGravity(TabLayout.GRAVITY_CENTER);
-        tabLayout.setTabMode(TabLayout.MODE_FIXED);
 
-        int contadorImagen = 0;
+        Boolean isFirstRun = getSharedPreferences("PREFERENCE", MODE_PRIVATE).getBoolean("isFirstRun", true);
 
-        while (contadorImagen <= 2) {
+        if (isFirstRun) {
+            //show start activity
 
-            switch (contadorImagen) {
-                case (0):
-                    // CargarImagen.setImageResource(R.drawable.whatsapp);
-                    break;
-
-                case (1):
-                    //CargarImagen = (ImageButton) findViewById(R.id.MensajesTexto);
-                    // CargarImagen.setImageResource(R.drawable.mensajes);
-                    break;
-            }
-
-            contadorImagen++;
+            startActivity(new Intent(MainActivity.this, SpanLaunch.class));
+            Toast.makeText(MainActivity.this, "First Run", Toast.LENGTH_LONG)
+                    .show();
         }
 
+
+        getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit()
+                .putBoolean("isFirstRun", false).commit();
+
+        setContentView(R.layout.activity_main);
+
+        TabLayout tabLayout = (TabLayout)findViewById(R.id.TabLayoutPrincipal);
+        tabLayout.setTabGravity(TabLayout.GRAVITY_CENTER);
+        tabLayout.setTabMode(TabLayout.MODE_FIXED);
 
         tabLayout.addTab(tabLayout.newTab());
         tabLayout.addTab(tabLayout.newTab());
@@ -57,30 +55,35 @@ public class MainActivity extends AppCompatActivity {
         ViewPager = (ViewPager) findViewById(R.id.ViewPagerPrincipal);
 
         // Creamos el adaptador, al cual le pasamos por parámtro el gestor de Fragmentos y muy importante, el nº de tabs o secciones que hemos creado.
-        Adaptador_ViewPagerPrincipal = new Adaptador_ViewPagerPrincipal(getSupportFragmentManager(), tabLayout.getTabCount());
+        Adaptador_ViewPagerPrincipal = new Adaptador_ViewPagerPrincipal(getSupportFragmentManager(),tabLayout.getTabCount());
 
         // Y los vinculamos.
         ViewPager.setAdapter(Adaptador_ViewPagerPrincipal);
         tabLayout.setupWithViewPager(ViewPager);
-
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
 
-    public void CursosMensajeria(View Vistazo) {
-        // Lo que estoy tratando de hacer es que si ninguna aplicacion de mensajeria esta instalada le tire el mensaje
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                drawerLayout.openDrawer(GravityCompat.START);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 
-        ImageButton ADondeVoy;
-        ADondeVoy = (ImageButton) Vistazo;
-        // int Boton = ADondeVoy.getId();
-        // ADondeVoy=(ImageButton)findViewById(Boton);
+    public void CursosMensajeria(View Vistazo)
+    {
+        Intent Destino;
+        Destino = new Intent(this, Cursos.class);
+        startActivity(Destino);
+    }
 
-            Intent Destino;
-            Destino = new Intent(this, ActividadPrincipal.class);
-            //Aca tendria que haber un bundle o algo que indique a que curso de todos va
-            startActivity(Destino);
-
-        //           Toast Mensaje;
-          //          Mensaje = Toast.makeText(getApplicationContext(), "Usted no tiene aplicaciones de Mensajeria, le recomendamos estas:", Toast.LENGTH_LONG);
-            //        Mensaje.show();
-                }
-            }
+    }

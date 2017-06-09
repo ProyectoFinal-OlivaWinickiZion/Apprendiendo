@@ -33,7 +33,7 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:id="@+id/WhatsApp"
+        android:id="@+id/start_service"
         android:layout_marginTop="2dp"
         android:background="@drawable/imageneswppok"
         android:onClick="CursosMensajeria" />
@@ -41,7 +41,7 @@
     <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="50dp"
-    android:id="@+id/MensajesTexto"
+    android:id="@+id/start_service1"
     android:layout_marginTop="9dp"
     android:background="@drawable/mensajeriaok"
     android:onClick="CursosMensajeria"/>
@@ -49,7 +49,7 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:id="@+id/Facebook"
+        android:id="@+id/start_service2"
         android:layout_marginTop="9dp"
         android:background="@drawable/imagenesfacebookmsgok"
         android:onClick="CursosMensajeria"/>

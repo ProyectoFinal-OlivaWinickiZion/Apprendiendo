@@ -3,22 +3,35 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/item_inicio"
             android:checked="true"
+            android:id="@+id/item_navigation_drawer_inbox"
             android:icon="@drawable/ic_action_accept"
-            android:title="Opcion4" />
+            android:title="Inbox" />
         <item
-            android:id="@+id/item_cuenta"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Opcion3" />
-        <item
-            android:id="@+id/item_categorias"
-            android:icon="@drawable/ic_drawer"
-            android:title="Opcion2" />
-        <item
-            android:id="@+id/item_configuracion"
+            android:id="@+id/item_navigation_drawer_starred"
             android:icon="@drawable/ic_communities"
-            android:title="Opcion1" />
+            android:title="Starred" />
+        <item
+            android:id="@+id/item_navigation_drawer_sent_mail"
+            android:icon="@drawable/ic_action_accept"
+            android:title="Sent mail" />
+        <item
+            android:id="@+id/item_navigation_drawer_drafts"
+            android:icon="@drawable/ic_communities"
+            android:title="Drafts" />
     </group>
+
+    <item android:title="Subheader">
+        <menu>
+            <item
+                android:id="@+id/item_navigation_drawer_settings"
+                android:icon="@drawable/ic_communities"
+                android:title="Settings" />
+            <item
+                android:id="@+id/item_navigation_drawer_help_and_feedback"
+                android:icon="@drawable/ic_communities"
+                android:title="Help and feedback" />
+        </menu>
+    </item>
 
 </menu>

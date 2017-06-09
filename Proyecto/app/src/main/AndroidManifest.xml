@@ -2,13 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.poryectofinal.proyecto">
 
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="AplicacionSinNombre"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/MiTema">
+        android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,10 +19,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".Cursos" />
-        <activity
-            android:name=".ActividadPrincipal"
-            android:label="@string/title_activity_actividad_principal"
-            android:theme="@style/MiTema"></activity>
+
+        <service
+            android:name=".FloatingViewService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity android:name=".SpanLaunch"></activity>
     </application>
 
 </manifest>
