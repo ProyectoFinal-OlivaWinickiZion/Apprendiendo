@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/avanzado"
+            android:checked="true"
+            android:icon="@drawable/ic_whats_hot"
+            android:title="Cursos Avanzados" />
+        <item
+            android:id="@+id/quisqui"
+            android:icon="@drawable/ic_whats_hot"
+            android:title="Panel de Quisquillosos" />
+        <item
+            android:id="@+id/preguntasrespuestas"
+            android:icon="@drawable/ic_whats_hot"
+            android:title="Preguntas y Respuestas" />
+        <item
+            android:id="@+id/item_configuracion"
+            android:icon="@drawable/ic_whats_hot"
+            android:title="Configuracion" />
+    </group>
+
+</menu>

@@ -10,16 +10,18 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Switch;
 import android.widget.TextView;
-
+import android.widget.Toast;
 
 
 public class FloatingViewService extends Service {
     private WindowManager mWindowManager;
     private View mFloatingView;
     int PorQuePasoVoy=0;
+
 
     public FloatingViewService() {
     }
@@ -35,8 +37,11 @@ public class FloatingViewService extends Service {
         //Inflate the floating view layout we created
         mFloatingView = LayoutInflater.from(this).inflate(R.layout.layout_floating_widget, null);
 
+        ImageView Screen = (ImageView)this.mFloatingView.findViewById(R.id.screen);
+        Screen.setImageResource(R.drawable.screenpas1);
         TextView Paso0 = (TextView)this.mFloatingView.findViewById(R.id.Paso);
         Paso0.setText("Eliga el contacto al que quiere mandarle la nota de voz (audio)");
+
         PorQuePasoVoy++;
         //Add the view to the window.
         final WindowManager.LayoutParams params = new WindowManager.LayoutParams(
@@ -61,6 +66,7 @@ public class FloatingViewService extends Service {
         final View expandedView = mFloatingView.findViewById(R.id.expanded_container);
 
         //Set the close button
+        /*
         ImageView closeButtonCollapsed = (ImageView) mFloatingView.findViewById(R.id.close_btn);
         closeButtonCollapsed.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -68,7 +74,7 @@ public class FloatingViewService extends Service {
                 //close the service and remove the from from the window
                 stopSelf();
             }
-        });
+        });/*
 
         //Set the view while floating view is expanded.
         //Set the play button.
@@ -194,32 +200,92 @@ public class FloatingViewService extends Service {
 
     public void PasoSiguiente(View Vistazo)
     {
-        Pasos(PorQuePasoVoy);
-        PorQuePasoVoy++;
-        
+        if (PorQuePasoVoy <= 2)
+        {
+            //The root element of the collapsed view layout
+            final View collapsedView = mFloatingView.findViewById(R.id.collapse_view);
+            //The root element of the expanded view layout
+            final View expandedView = mFloatingView.findViewById(R.id.expanded_container);
+
+            collapsedView.setVisibility(View.VISIBLE);
+            expandedView.setVisibility(View.GONE);
+
+            Pasos(PorQuePasoVoy);
+            PorQuePasoVoy++;
+        }
+        else
+        {
+            ImageButton PasoSig = (ImageButton) mFloatingView.findViewById(R.id.PasoSig);
+            ImageButton PasoAnt = (ImageButton) mFloatingView.findViewById(R.id.PasoAnt);
+
+            PasoSig.setEnabled(false);
+            PasoAnt.setEnabled(false);
+        }
+
+
+
 
     }
     public void PasoAnterior(View Vistazo)
     {
-        PorQuePasoVoy--;
-        Pasos(PorQuePasoVoy);
+
+
+        if (PorQuePasoVoy <= 2 || PorQuePasoVoy !=0)
+        {
+            PorQuePasoVoy--;
+            Pasos(PorQuePasoVoy);
+            //The root element of the collapsed view layout
+            final View collapsedView = mFloatingView.findViewById(R.id.collapse_view);
+            //The root element of the expanded view layout
+            final View expandedView = mFloatingView.findViewById(R.id.expanded_container);
+
+            collapsedView.setVisibility(View.VISIBLE);
+            expandedView.setVisibility(View.GONE);
+        }
+        else
+        {
+            ImageButton PasoSig = (ImageButton) mFloatingView.findViewById(R.id.PasoSig);
+            ImageButton PasoAnt = (ImageButton) mFloatingView.findViewById(R.id.PasoAnt);
+
+            PasoSig.setEnabled(false);
+            PasoAnt.setEnabled(false);
+        }
+
     }
 
     public void Pasos(int Contador)
     {
         TextView PasoPorPasoT = (TextView)this.mFloatingView.findViewById(R.id.Paso);
-
+        ImageView Screen = (ImageView)this.mFloatingView.findViewById(R.id.screen);
 
         switch(Contador)
         {
+            case 0:
+                PasoPorPasoT.setText("Eliga el contacto al que quiere mandarle la nota de voz (audio)");
+                Screen.setImageResource(R.drawable.screenpas1);
+                break;
             case 1:
                 PasoPorPasoT.setText("Mantenga presionado el boton del microfono ubicado en el lado derecho inferior");
+                Screen.setImageResource(R.drawable.screenpas2);
 
                 break;
             case 2:
                 PasoPorPasoT.setText("Suelte el boton para enviar el mensaje, si lo quiere cancelar deslize el dedo hacia la izquierda teniendo el boton presionado");
 
+            case 3:
+                PasoPorPasoT.setText("Felicidades usted ha logrado mandar un audio correctamente, puede volver a los cursos presionando el boton para mas cursos");
+                Screen.setImageResource(R.drawable.aplausos);
                 break;
+        }
+        if(PorQuePasoVoy <=3)
+        {
+        }
+        else
+        {
+            Toast MensajeFin;
+            MensajeFin = Toast.makeText(this, "No hay mas pasos, si no pudo lograrlo vuelva para atras y si lo logro puede ir a ver mas cursos", Toast.LENGTH_LONG);
+            MensajeFin.show();
+
         }
     }
 }

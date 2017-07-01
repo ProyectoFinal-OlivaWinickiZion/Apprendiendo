@@ -17,7 +17,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/MiTema" >
-        <activity android:name="com.poryectofinal.proyecto.MainActivity" >
+        <activity android:name="com.poryectofinal.proyecto.welcome" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,6 +30,10 @@
             android:name="com.poryectofinal.proyecto.FloatingViewService"
             android:enabled="true"
             android:exported="false" />
+
+        <activity android:name="com.poryectofinal.proyecto.panelquisqui" />
+        <activity android:name="com.poryectofinal.proyecto.MainActivity" />
+        <activity android:name="com.poryectofinal.proyecto.consejos" />
     </application>
 
 </manifest>

@@ -1,7 +1,7 @@
-#Fri May 26 11:49:37 ART 2017
-base.0=E\:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ee4affd9658227cbbd6e75b10641b56a74ed0915
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=E\:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2b8259a592e002a97b84ddfbdcc3fcf00a193157\\classes.dex
-base.1=E\:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2b8259a592e002a97b84ddfbdcc3fcf00a193157
-file.0=E\:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ee4affd9658227cbbd6e75b10641b56a74ed0915\\classes.dex
+#Fri Jun 30 11:11:52 ART 2017
+base.0=Z\:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_33b1fb45faaf109dc307e336ed717a8bf972fe68
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=Z\:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8bbdb4a2b00621a439cdc87202e15d5214f3f2c4\\classes.dex
+base.1=Z\:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8bbdb4a2b00621a439cdc87202e15d5214f3f2c4
+file.0=Z\:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_33b1fb45faaf109dc307e336ed717a8bf972fe68\\classes.dex

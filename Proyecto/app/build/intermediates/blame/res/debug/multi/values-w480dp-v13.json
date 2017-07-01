@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
+        "outputFile": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 112
                 },
                 "from": {
-                    "file": "D:\\Users\\42647486.ALMAGRO\\.android\\build-cache\\7b9b9caffdedcd4df8bedd2959aee4467023b4b9\\output\\res\\values-w480dp-v13\\values-w480dp-v13.xml",
+                    "file": "C:\\Users\\42647486\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\values-w480dp-v13\\values-w480dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "D:\\Users\\42647486.ALMAGRO\\.android\\build-cache\\7b9b9caffdedcd4df8bedd2959aee4467023b4b9\\output\\res\\values-w480dp-v13\\values-w480dp-v13.xml",
+                    "file": "C:\\Users\\42647486\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\values-w480dp-v13\\values-w480dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,

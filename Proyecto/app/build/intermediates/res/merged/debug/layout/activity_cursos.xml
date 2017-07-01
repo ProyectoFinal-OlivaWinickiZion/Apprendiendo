@@ -15,7 +15,7 @@
         android:layout_height="42dp"
         android:layout_marginLeft="12dp"
         android:layout_marginRight="12dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginTop="6dp"
         android:layout_marginBottom="7dp"
         android:layout_gravity="left|top"
         android:elevation="2dp"
@@ -57,10 +57,10 @@
         tools:context=".MainActivity">
 
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
 
         <android.support.design.widget.AppBarLayout
             android:id="@+id/AppbarPrincipal"
@@ -74,111 +74,105 @@
                 android:layout_height="wrap_content" />
             <!-- Fin de la Toolbar-->
 
-            <!-- Inicio de la TabLayout-->
-            <android.support.design.widget.TabLayout
-                android:id="@+id/TabLayoutPrincipal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+
             <!-- Fin de la TabLayout-->
 
         </android.support.design.widget.AppBarLayout>
         <!-- Fin de la Appbar -->
 
         <!-- Inicio del ViewPager -->
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            xmlns:android="http://schemas.android.com/apk/res/android">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-
-        <ImageButton
-            android:id="@+id/notify_me"
-            android:layout_width="282dp"
-            android:layout_height="60dp"
-            android:onClick="Tutorial"
-            android:layout_marginLeft="35dp"
-            android:layout_marginTop="115dp"
-            android:foreground="@drawable/escribirmensajewppok" />
-
-        <ImageButton
-            android:id="@+id/curso2"
-            android:layout_width="282dp"
-            android:onClick="Tutorial"
-            android:layout_height="60dp"
-            android:layout_marginLeft="35dp"
-            android:layout_marginTop="10dp"
-            android:foreground="@drawable/audioxwppok" />
-
-        <ImageButton
-            android:id="@+id/curso3"
-            android:layout_width="282dp"
-            android:layout_height="60dp"
-            android:onClick="Tutorial"
-            android:layout_marginLeft="35dp"
-            android:layout_marginTop="10dp"
-            android:foreground="@drawable/escribirmensajewppok" />
-
-        <ImageButton
-            android:id="@+id/curso4"
-            android:layout_width="282dp"
-            android:layout_height="60dp"
-            android:onClick="Tutorial"
-            android:layout_marginLeft="35dp"
-            android:layout_marginTop="10dp"
-            android:foreground="@drawable/audioxwppok" />
-
-        <ImageButton
-            android:id="@+id/curso5"
-            android:layout_width="282dp"
-            android:layout_height="60dp"
-            android:onClick="Tutorial"
-            android:layout_marginLeft="35dp"
-            android:layout_marginTop="10dp"
-            android:foreground="@drawable/escribirmensajewppok" />
-
-        <ImageButton
-            android:id="@+id/curso6"
-            android:layout_width="282dp"
-            android:onClick="Tutorial"
-            android:layout_height="60dp"
-            android:layout_marginLeft="35dp"
-            android:layout_marginTop="10dp"
-            android:foreground="@drawable/audioxwppok" />
-
-        <ImageButton
-            android:id="@+id/curso7"
-            android:layout_width="282dp"
-            android:layout_height="60dp"
-            android:onClick="Tutorial"
-            android:layout_marginLeft="35dp"
-            android:layout_marginTop="10dp"
-            android:foreground="@drawable/escribirmensajewppok" />
-
-        <ImageButton
-            android:id="@+id/curso8"
-            android:layout_width="282dp"
-            android:onClick="Tutorial"
-            android:layout_height="60dp"
-            android:layout_marginLeft="35dp"
-            android:layout_marginTop="10dp"
-            android:foreground="@drawable/audioxwppok" />
-
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" />
+                android:orientation="vertical"
+                android:weightSum="1">
 
 
-        <!-- Fin del ViewPager -->
-    </LinearLayout>
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.18">
 
-    </ScrollView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" />
+                </ScrollView>
+
+                <ImageButton
+                    android:id="@+id/notify_me"
+                    android:layout_width="360dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="65dp"
+                    android:foreground="@drawable/audiowppfinal"
+                    android:onClick="Tutorial"/>
+
+                <ImageButton
+                    android:id="@+id/curso2"
+                    android:layout_width="360dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:foreground="@drawable/escribirmensajewppfinal"
+                    android:onClick="Tutorial" />
+
+                <ImageButton
+                    android:id="@+id/curso3"
+                    android:layout_width="360dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:foreground="@drawable/mandarimagenwppfinal"
+                    android:onClick="Tutorial" />
+
+                <ImageButton
+                    android:id="@+id/curso4"
+                    android:layout_width="360dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:foreground="@drawable/videollamadawpp"
+                    android:onClick="Tutorial" />
+
+                <ImageButton
+                    android:id="@+id/curso5"
+                    android:layout_width="360dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:foreground="@drawable/llamadavozwpp"
+                    android:onClick="Tutorial" />
+
+                <ImageButton
+                    android:id="@+id/curso6"
+                    android:layout_width="360dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:foreground="@drawable/adjuntararchivo"
+                    android:onClick="Tutorial" />
+
+                <ImageButton
+                    android:id="@+id/curso7"
+                    android:layout_width="360dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:foreground="@drawable/audiowppfinal"
+                    android:onClick="Tutorial" />
+
+                <ImageButton
+                    android:id="@+id/curso8"
+                    android:layout_width="360dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:foreground="@drawable/mandarimagenwppfinal"
+                    android:onClick="Tutorial" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+
+                <!-- Fin del ViewPager -->
+            </LinearLayout>
 
     </android.support.design.widget.CoordinatorLayout>
 

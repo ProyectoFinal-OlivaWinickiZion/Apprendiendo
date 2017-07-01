@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+        "outputFile": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 125
                 },
                 "from": {
-                    "file": "D:\\Users\\42647486.ALMAGRO\\.android\\build-cache\\7b9b9caffdedcd4df8bedd2959aee4467023b4b9\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "C:\\Users\\42647486\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 212
                 },
                 "from": {
-                    "file": "D:\\Users\\42647486.ALMAGRO\\.android\\build-cache\\7b9b9caffdedcd4df8bedd2959aee4467023b4b9\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "C:\\Users\\42647486\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -50,7 +50,7 @@
                     "endOffset": 548
                 },
                 "from": {
-                    "file": "D:\\Users\\42647486.ALMAGRO\\.android\\build-cache\\7b9b9caffdedcd4df8bedd2959aee4467023b4b9\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "C:\\Users\\42647486\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -71,7 +71,7 @@
                     "endOffset": 896
                 },
                 "from": {
-                    "file": "D:\\Users\\42647486.ALMAGRO\\.android\\build-cache\\7b9b9caffdedcd4df8bedd2959aee4467023b4b9\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "C:\\Users\\42647486\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,

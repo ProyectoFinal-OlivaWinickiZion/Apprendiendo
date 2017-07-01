@@ -1,6 +1,22 @@
 [
     {
-        "merged": "E:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_open.png",
-        "source": "E:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\src\\main\\res\\drawable-mdpi\\ic_open.png"
+        "merged": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_open.png",
+        "source": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\src\\main\\res\\drawable-mdpi\\ic_open.png"
+    },
+    {
+        "merged": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_food.png",
+        "source": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\src\\main\\res\\drawable-mdpi\\ic_food.png"
+    },
+    {
+        "merged": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_travel.png",
+        "source": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\src\\main\\res\\drawable-mdpi\\ic_travel.png"
+    },
+    {
+        "merged": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_discount.png",
+        "source": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\src\\main\\res\\drawable-mdpi\\ic_discount.png"
+    },
+    {
+        "merged": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_movie.png",
+        "source": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\src\\main\\res\\drawable-mdpi\\ic_movie.png"
     }
 ]

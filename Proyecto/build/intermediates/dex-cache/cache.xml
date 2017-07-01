@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ee4affd9658227cbbd6e75b10641b56a74ed0915\classes.dex" />
+        <dex dex="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_33b1fb45faaf109dc307e336ed717a8bf972fe68\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0c803f9307f47ebaeea6b9757475571c6f361497">
-        <dex dex="E:\PROYECTO FINAL\NombreDeProyectoADefinir\Proyecto\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_2b8259a592e002a97b84ddfbdcc3fcf00a193157\classes.dex" />
+        sha1="adaccb1f62f4b0f825170ad1b8afdedea8903938">
+        <dex dex="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8bbdb4a2b00621a439cdc87202e15d5214f3f2c4\classes.dex" />
     </item>
 
 </items>

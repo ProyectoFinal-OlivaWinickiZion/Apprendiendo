@@ -18,59 +18,52 @@
 
     <ImageButton
         android:id="@+id/curso"
-        android:layout_width="282dp"
+        android:layout_width="360dp"
         android:layout_height="60dp"
-        android:layout_marginLeft="35dp"
         android:layout_marginTop="115dp"
-        android:foreground="@drawable/audioxwppok" />
+        android:foreground="@drawable/audiowppfinal" />
 
     <ImageButton
         android:id="@+id/curso1"
-        android:layout_width="282dp"
+        android:layout_width="360dp"
         android:layout_height="60dp"
-        android:layout_marginLeft="35dp"
         android:layout_marginTop="10dp"
-        android:foreground="@drawable/imagenxwpp" />
+        android:foreground="@drawable/mandarimagenwppfinal" />
 
     <ImageButton
         android:id="@+id/curso2"
-        android:layout_width="282dp"
+        android:layout_width="360dp"
         android:layout_height="60dp"
-        android:layout_marginLeft="35dp"
         android:layout_marginTop="10dp"
-        android:foreground="@drawable/escribirmensajewppok" />
+        android:foreground="@drawable/adjuntararchivo" />
 
     <ImageButton
         android:id="@+id/curso3"
-        android:layout_width="282dp"
+        android:layout_width="360dp"
         android:layout_height="60dp"
-        android:layout_marginLeft="35dp"
         android:layout_marginTop="10dp"
-        android:foreground="@drawable/audioxwppok" />
+        android:foreground="@drawable/llamadavozwpp" />
 
     <ImageButton
         android:id="@+id/curso4"
-        android:layout_width="282dp"
+        android:layout_width="360dp"
         android:layout_height="60dp"
-        android:layout_marginLeft="35dp"
         android:layout_marginTop="10dp"
-        android:foreground="@drawable/imagenxwpp" />
+        android:foreground="@drawable/videollamadawpp" />
 
     <ImageButton
         android:id="@+id/curso5"
-        android:layout_width="282dp"
+        android:layout_width="360dp"
         android:layout_height="60dp"
-        android:layout_marginLeft="35dp"
         android:layout_marginTop="10dp"
-        android:foreground="@drawable/escribirmensajewppok" />
+        android:foreground="@drawable/escribirmensajewppfinal" />
 
     <ImageButton
         android:id="@+id/curso6"
-        android:layout_width="282dp"
+        android:layout_width="360dp"
         android:layout_height="60dp"
-        android:layout_marginLeft="35dp"
         android:layout_marginTop="10dp"
-        android:foreground="@drawable/imagenxwpp" />
+        android:foreground="@drawable/mandarimagenwppfinal" />
 
 
 

@@ -22,6 +22,10 @@ public class Cursos extends AppCompatActivity {
         //you have to ask for the permission in runtime.
 
     }
+    @Override
+    public void onBackPressed() {
+       
+    }
 
     /**
      * Set and initialize the view elements.
@@ -44,16 +48,11 @@ public class Cursos extends AppCompatActivity {
     }
 
     private void initializeView() {
-        findViewById(R.id.notify_me).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
                 startService(new Intent(Cursos.this, FloatingViewService.class));
                 finish();
                 Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.whatsapp");
                 startActivity(launchIntent);
             }
-        });
-    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {

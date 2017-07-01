@@ -1,6 +1,22 @@
 [
     {
-        "merged": "E:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_open.png",
-        "source": "E:\\PROYECTO FINAL\\NombreDeProyectoADefinir\\Proyecto\\app\\src\\main\\res\\drawable-hdpi\\ic_open.png"
+        "merged": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_food.png",
+        "source": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\src\\main\\res\\drawable-hdpi\\ic_food.png"
+    },
+    {
+        "merged": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_movie.png",
+        "source": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\src\\main\\res\\drawable-hdpi\\ic_movie.png"
+    },
+    {
+        "merged": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_discount.png",
+        "source": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\src\\main\\res\\drawable-hdpi\\ic_discount.png"
+    },
+    {
+        "merged": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_open.png",
+        "source": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\src\\main\\res\\drawable-hdpi\\ic_open.png"
+    },
+    {
+        "merged": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_travel.png",
+        "source": "Z:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\src\\main\\res\\drawable-hdpi\\ic_travel.png"
     }
 ]

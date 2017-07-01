@@ -23,20 +23,21 @@
             <!--Icon of floating widget -->
             <ImageView
                 android:id="@+id/collapsed_iv"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_marginTop="8dp"
-                android:src="@drawable/solebrity_icon_light"
+                android:src="@drawable/alfred"
                 tools:ignore="ContentDescription"/>
 
             <!--Close button-->
-            <ImageView
+           <!-- <ImageView
                 android:id="@+id/close_btn"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_marginLeft="40dp"
                 android:src="@drawable/ic_close"
                 tools:ignore="ContentDescription"/>
+                -->
         </RelativeLayout>
 
         <!--View while view is expanded-->
@@ -44,7 +45,8 @@
             android:id="@+id/expanded_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:foreground="@drawable/customborder"
+            android:background="#e0ffffff"
             android:visibility="gone"
             android:orientation="vertical"
             android:padding="8dp">
@@ -59,7 +61,7 @@
             <ImageButton
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/ic_drawer"
+                android:background="@drawable/diagonalarriba"
                 android:onClick="VolverACursos"
                 android:id="@+id/open_button"
                 tools:ignore="ContentDescription"/>
@@ -80,10 +82,18 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/Paso"
                 android:textColor="@color/md_black_1000"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="40dp"
                 android:layout_marginLeft="5dp"
                 android:textStyle="bold"
                 android:textSize="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/screen"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                tools:ignore="ContentDescription"/>
 
 
 
@@ -94,22 +104,22 @@
 
 
                 <ImageButton
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/ic_drawer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botonpasoanterior"
                     android:onClick="PasoAnterior"
                     android:id="@+id/PasoAnt"
-                    android:layout_marginTop="280dp"
+                    android:layout_marginTop="20dp"
                     tools:ignore="ContentDescription"/>
 
                 <ImageButton
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/ic_drawer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botonsiguientepaso"
                     android:onClick="PasoSiguiente"
                     android:id="@+id/PasoSig"
-                    android:layout_marginTop="280dp"
-                    android:layout_marginLeft="205dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="50dp"
                     tools:ignore="ContentDescription"/>
 
             </LinearLayout>

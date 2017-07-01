@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.poryectofinal.proyecto">
 
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/MiTema">
-        <activity android:name=".MainActivity">
+        <activity android:name=".welcome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,9 +21,13 @@
         <activity android:name=".Cursos" />
 
         <service
-        android:name="com.poryectofinal.proyecto.FloatingViewService"
-        android:enabled="true"
-        android:exported="false"/>
+            android:name=".FloatingViewService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity android:name=".panelquisqui" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".consejos"></activity>
     </application>
 
 </manifest>
