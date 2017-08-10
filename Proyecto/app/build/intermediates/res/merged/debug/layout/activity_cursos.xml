@@ -36,10 +36,11 @@
         <EditText
             android:id="@+id/buscarTxt"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="8.5dp"
+            android:layout_marginTop="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Busca cursos aca"
+            android:textSize="20dp"
             android:textColorHint="#80000000"
             android:background="@android:color/transparent"
             android:nextFocusUp="@id/buscarTxt"
@@ -65,6 +66,7 @@
         <android.support.design.widget.AppBarLayout
             android:id="@+id/AppbarPrincipal"
             android:layout_width="match_parent"
+            android:background="#7D878B"
             android:layout_height="wrap_content">
 
             <!-- Inicio de la Toolbar-->
@@ -102,67 +104,75 @@
 
                 <ImageButton
                     android:id="@+id/notify_me"
-                    android:layout_width="360dp"
+                    android:layout_width="424dp"
                     android:layout_height="60dp"
                     android:layout_marginTop="65dp"
                     android:foreground="@drawable/audiowppfinal"
-                    android:onClick="Tutorial"/>
+                    android:onClick="Tutorial"
+                    android:layout_weight="0.23" />
 
                 <ImageButton
                     android:id="@+id/curso2"
-                    android:layout_width="360dp"
+                    android:layout_width="424dp"
                     android:layout_height="60dp"
                     android:layout_marginTop="10dp"
                     android:foreground="@drawable/escribirmensajewppfinal"
-                    android:onClick="Tutorial" />
+                    android:onClick="Tutorial"
+                    android:layout_weight="0.23" />
 
                 <ImageButton
                     android:id="@+id/curso3"
-                    android:layout_width="360dp"
+                    android:layout_width="424dp"
                     android:layout_height="60dp"
                     android:layout_marginTop="10dp"
                     android:foreground="@drawable/mandarimagenwppfinal"
-                    android:onClick="Tutorial" />
+                    android:onClick="Tutorial"
+                    android:layout_weight="0.23" />
 
                 <ImageButton
                     android:id="@+id/curso4"
-                    android:layout_width="360dp"
+                    android:layout_width="424dp"
                     android:layout_height="60dp"
                     android:layout_marginTop="10dp"
                     android:foreground="@drawable/videollamadawpp"
-                    android:onClick="Tutorial" />
+                    android:onClick="Tutorial"
+                    android:layout_weight="0.23" />
 
                 <ImageButton
                     android:id="@+id/curso5"
-                    android:layout_width="360dp"
+                    android:layout_width="424dp"
                     android:layout_height="60dp"
                     android:layout_marginTop="10dp"
                     android:foreground="@drawable/llamadavozwpp"
-                    android:onClick="Tutorial" />
+                    android:onClick="Tutorial"
+                    android:layout_weight="0.23" />
 
                 <ImageButton
                     android:id="@+id/curso6"
-                    android:layout_width="360dp"
+                    android:layout_width="424dp"
                     android:layout_height="60dp"
                     android:layout_marginTop="10dp"
                     android:foreground="@drawable/adjuntararchivo"
-                    android:onClick="Tutorial" />
+                    android:onClick="Tutorial"
+                    android:layout_weight="0.23" />
 
                 <ImageButton
                     android:id="@+id/curso7"
-                    android:layout_width="360dp"
+                    android:layout_width="424dp"
                     android:layout_height="60dp"
                     android:layout_marginTop="10dp"
                     android:foreground="@drawable/audiowppfinal"
-                    android:onClick="Tutorial" />
+                    android:onClick="Tutorial"
+                    android:layout_weight="0.23" />
 
                 <ImageButton
                     android:id="@+id/curso8"
-                    android:layout_width="360dp"
+                    android:layout_width="424dp"
                     android:layout_height="60dp"
                     android:layout_marginTop="10dp"
                     android:foreground="@drawable/mandarimagenwppfinal"
-                    android:onClick="Tutorial" />
+                    android:onClick="Tutorial"
+                    android:layout_weight="0.23" />
 
 
                 <LinearLayout

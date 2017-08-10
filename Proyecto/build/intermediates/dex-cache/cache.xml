@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_33b1fb45faaf109dc307e336ed717a8bf972fe68\classes.dex" />
+        <dex dex="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a8b8f98e09341bc0e6e8fde3405cbe9c9602c9e7\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="adaccb1f62f4b0f825170ad1b8afdedea8903938">
-        <dex dex="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8bbdb4a2b00621a439cdc87202e15d5214f3f2c4\classes.dex" />
+        sha1="360b6451fc8b1a41ec3059ce47253a5b03db51c7">
+        <dex dex="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d42f76e03e46b194719190e8b318fe7a44ea59bd\classes.dex" />
     </item>
 
 </items>

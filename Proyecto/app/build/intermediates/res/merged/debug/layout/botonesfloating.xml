@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!--Root container-->
+    <RelativeLayout
+        android:id="@+id/root_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <!--View while view is collapsed-->
+        <RelativeLayout
+            android:id="@+id/collapse_view"
+            android:layout_width="wrap_content"
+            android:visibility="visible"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--Icon of floating widget -->
+            <ImageView
+                android:id="@+id/collapsed_iv"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/alfred"
+                tools:ignore="ContentDescription"/>
+
+            <!--Close button-->
+            <!-- <ImageView
+                 android:id="@+id/close_btn"
+                 android:layout_width="20dp"
+                 android:layout_height="20dp"
+                 android:layout_marginLeft="40dp"
+                 android:src="@drawable/ic_close"
+                 tools:ignore="ContentDescription"/>
+                 -->
+        </RelativeLayout>
+
+        <!--View while view is expanded-->
+        <LinearLayout
+            android:id="@+id/expanded_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="@drawable/customborder"
+            android:background="@color/md_black_1000"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!--Album image for the song currently playing.-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:layout_width="350dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="30dp"
+                    android:scaleType="fitCenter"
+                    android:onClick="Ant"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/botonpasoanterior"/>
+
+                <ImageButton
+                    android:layout_width="350dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="30dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:onClick="Rep"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/botonrepetiractual" />
+                <ImageButton
+                    android:layout_width="350dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="30dp"
+                    android:onClick="Sig"
+                    android:layout_marginLeft="30dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/botonsiguientepaso"/>
+
+
+            </LinearLayout>
+            <!-- Es del logo -->
+            <!--Previous button-->
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>
+

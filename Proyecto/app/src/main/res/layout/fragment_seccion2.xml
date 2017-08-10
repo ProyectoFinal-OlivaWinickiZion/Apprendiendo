@@ -7,7 +7,8 @@
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android" >
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
 
 
         <LinearLayout
@@ -18,52 +19,59 @@
 
     <ImageButton
         android:id="@+id/curso"
-        android:layout_width="360dp"
+        android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="115dp"
-        android:foreground="@drawable/audiowppfinal" />
+        android:foreground="@drawable/audiowppfinal"
+        android:layout_weight="0.19" />
 
     <ImageButton
         android:id="@+id/curso1"
-        android:layout_width="360dp"
+        android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
-        android:foreground="@drawable/mandarimagenwppfinal" />
+        android:foreground="@drawable/mandarimagenwppfinal"
+        android:layout_weight="0.19" />
 
     <ImageButton
         android:id="@+id/curso2"
-        android:layout_width="360dp"
+        android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
-        android:foreground="@drawable/adjuntararchivo" />
+        android:foreground="@drawable/adjuntararchivo"
+        android:layout_weight="0.19" />
 
     <ImageButton
         android:id="@+id/curso3"
-        android:layout_width="360dp"
+        android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
-        android:foreground="@drawable/llamadavozwpp" />
+        android:foreground="@drawable/llamadavozwpp"
+        android:layout_weight="0.19" />
 
     <ImageButton
         android:id="@+id/curso4"
-        android:layout_width="360dp"
+        android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
-        android:foreground="@drawable/videollamadawpp" />
+        android:foreground="@drawable/videollamadawpp"
+        android:layout_weight="0.19" />
 
     <ImageButton
         android:id="@+id/curso5"
-        android:layout_width="360dp"
+        android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
-        android:foreground="@drawable/escribirmensajewppfinal" />
+        android:foreground="@drawable/escribirmensajewppfinal"
+        android:layout_weight="0.19" />
 
     <ImageButton
         android:id="@+id/curso6"
-        android:layout_width="360dp"
+        android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
-        android:foreground="@drawable/mandarimagenwppfinal" />
+        android:foreground="@drawable/mandarimagenwppfinal"
+        android:layout_weight="0.19" />
 
 
 

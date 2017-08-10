@@ -4,8 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
@@ -13,11 +11,18 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.InputType;
-import android.view.Menu;
+import android.view.KeyEvent;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
+import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.view.KeyEvent;
+import android.view.View.OnKeyListener;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -25,13 +30,20 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private ViewPager ViewPager;
     ImageButton CargarImagen;
     private DrawerLayout drawerLayout;
+    EditText Tec;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Pantalla Completa
+        // getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        Tec = (EditText)findViewById(R.id.buscarTxt);
+
         agregarToolbar();
+        Tec.setInputType(InputType.TYPE_NULL);
+
 
         drawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
         /*Toolbar toolbar = (Toolbar) findViewById(R.id.ToolbarPrincipal);
@@ -44,9 +56,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         int contadorImagen = 0;
 
-        EditText Buscar = (EditText)findViewById(R.id.buscarTxt);
-
-        Buscar.setInputType(InputType.TYPE_NULL);
 
 
         tabLayout.addTab(tabLayout.newTab());
@@ -64,7 +73,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-    }
+        EditText Buscador = (EditText) findViewById(R.id.buscarTxt);}
+
     private void agregarToolbar(){
         Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -92,6 +102,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
            super.onBackPressed();
        }
    }
+
+   /*public void Teclado(){
+       Tec.setInputType(InputType.TYPE_CLASS_TEXT);
+   }*/
     @Override
     public boolean onOptionsItemSelected(MenuItem item)
     {
@@ -164,4 +178,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
         }
     }
+
+
 }

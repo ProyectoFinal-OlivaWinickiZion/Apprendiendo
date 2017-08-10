@@ -1,4 +1,4 @@
-#Fri Jun 30 09:12:54 ART 2017
-base.0=Z\:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9
+#Thu Aug 10 18:10:32 ART 2017
+base.0=C\:\\Users\\Tomas Winicki\\Desktop\\Proyectos Android\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9
 renamed.0=classes.dex
-file.0=Z\:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9\\classes.dex
+file.0=C\:\\Users\\Tomas Winicki\\Desktop\\Proyectos Android\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9\\classes.dex

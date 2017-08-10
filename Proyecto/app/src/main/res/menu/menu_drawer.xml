@@ -10,11 +10,11 @@
         <item
             android:id="@+id/quisqui"
             android:icon="@drawable/ic_whats_hot"
-            android:title="Panel de Quisquillosos" />
+            android:title="Quisquillosos" />
         <item
             android:id="@+id/preguntasrespuestas"
             android:icon="@drawable/ic_whats_hot"
-            android:title="Preguntas y Respuestas" />
+            android:title="P y R" />
         <item
             android:id="@+id/item_configuracion"
             android:icon="@drawable/ic_whats_hot"

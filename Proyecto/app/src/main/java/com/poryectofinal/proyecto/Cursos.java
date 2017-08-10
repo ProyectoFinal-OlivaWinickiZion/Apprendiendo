@@ -24,7 +24,9 @@ public class Cursos extends AppCompatActivity {
     }
     @Override
     public void onBackPressed() {
-       
+       Intent AInicio = new Intent(this, MainActivity.class);
+        startActivity(AInicio);
+        finish();
     }
 
     /**

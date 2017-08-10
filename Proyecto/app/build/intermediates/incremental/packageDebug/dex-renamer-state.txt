@@ -1,7 +1,7 @@
-#Fri Jun 30 11:11:52 ART 2017
-base.0=Z\:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_33b1fb45faaf109dc307e336ed717a8bf972fe68
+#Thu Aug 10 18:26:40 ART 2017
+base.0=C\:\\Users\\Tomas Winicki\\Desktop\\Proyectos Android\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d42f76e03e46b194719190e8b318fe7a44ea59bd
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=Z\:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8bbdb4a2b00621a439cdc87202e15d5214f3f2c4\\classes.dex
-base.1=Z\:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8bbdb4a2b00621a439cdc87202e15d5214f3f2c4
-file.0=Z\:\\PROYECTO_FINAL\\Pruebas WINICKI\\BranchPrueba\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_33b1fb45faaf109dc307e336ed717a8bf972fe68\\classes.dex
+file.1=C\:\\Users\\Tomas Winicki\\Desktop\\Proyectos Android\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a8b8f98e09341bc0e6e8fde3405cbe9c9602c9e7\\classes.dex
+base.1=C\:\\Users\\Tomas Winicki\\Desktop\\Proyectos Android\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a8b8f98e09341bc0e6e8fde3405cbe9c9602c9e7
+file.0=C\:\\Users\\Tomas Winicki\\Desktop\\Proyectos Android\\Proyecto-Final-NombreADefinir\\Proyecto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d42f76e03e46b194719190e8b318fe7a44ea59bd\\classes.dex
