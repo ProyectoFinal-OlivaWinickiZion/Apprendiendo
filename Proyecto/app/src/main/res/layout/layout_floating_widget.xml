@@ -63,7 +63,6 @@
                 android:layout_height="100dp"
                 android:layout_marginLeft="305dp"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/botonalfred"
                 android:onClick="Opciones"
                 android:background="@null"
                 android:id="@+id/open_button"

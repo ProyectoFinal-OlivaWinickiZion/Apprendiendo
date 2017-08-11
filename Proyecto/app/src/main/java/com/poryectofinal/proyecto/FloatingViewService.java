@@ -211,7 +211,7 @@ public class FloatingViewService extends Service {
 
 
     public void PasoSiguiente() {
-        if (PorQuePasoVoy <= 3) {
+        if (PorQuePasoVoy <= 4) {
             //The root element of the collapsed view layout
             final View collapsedView = mFloatingView.findViewById(R.id.collapse_view);
             //The root element of the expanded view layout
@@ -223,7 +223,7 @@ public class FloatingViewService extends Service {
             Pasos();
             PorQuePasoVoy++;
         } else {
-            if (PorQuePasoVoy == 4) {
+            if (PorQuePasoVoy == 5) {
                 //LO DE LINEARLAYOUT NO ANDA, LO QUE TENDRIA QUE MOSTRAR QUE SERIA EL BOTON DE REPETIR NO LO HACE, REVISAR EL XML Y EL JAVA
                 //INCLUYENDO EL REPEAT Y LOS PASOS SIGUIENTES Y ANTERIORES
                 Pasos();
@@ -266,7 +266,7 @@ public class FloatingViewService extends Service {
     public void PasoAnterior() {
 
 
-        if (PorQuePasoVoy <= 3 || PorQuePasoVoy != 0) {
+        if (PorQuePasoVoy <= 4 || PorQuePasoVoy != 0) {
             PorQuePasoVoy--;
             Pasos();
             //The root element of the collapsed view layout
@@ -277,7 +277,7 @@ public class FloatingViewService extends Service {
             collapsedView.setVisibility(View.VISIBLE);
             expandedView.setVisibility(View.GONE);
         } else {
-            if (PorQuePasoVoy == 4) {
+            if (PorQuePasoVoy == 5) {
                 Pasos();
                 Toast MensajeFin;
                 MensajeFin = Toast.makeText(this, "No hay mas pasos, si no pudo lograrlo vuelva para atras y si lo logro puede ir a ver mas cursos", Toast.LENGTH_LONG);
@@ -337,31 +337,44 @@ public class FloatingViewService extends Service {
 
                 break;
             case 2:
-                Screen.setBackgroundResource(R.drawable.parte4);
+                Screen.setBackgroundResource(R.drawable.parte3);
                 RelativeLayout.LayoutParams rel_btns = new RelativeLayout.LayoutParams(
                         RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
 
-                rel_btns.leftMargin = 100;
-                rel_btns.topMargin = 155;
+                rel_btns.leftMargin = 810;
+                rel_btns.topMargin = 250;
                 rel_btns.height = 150;
                 rel_btns.width = 150;
 
 
                 Opcions.setLayoutParams(rel_btns);
-
+                break;
             case 3:
+                Screen.setBackgroundResource(R.drawable.parte4);
+                RelativeLayout.LayoutParams rel_btnsi = new RelativeLayout.LayoutParams(
+                        RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
+
+                rel_btnsi.leftMargin = 800;
+                rel_btnsi.topMargin = 950;
+                rel_btnsi.height = 150;
+                rel_btnsi.width = 150;
+
+
+                Opcions.setLayoutParams(rel_btnsi);
+                break;
+            case 4:
                 Screen.setBackgroundResource(R.drawable.parte5);
                 RelativeLayout.LayoutParams rel_btni = new RelativeLayout.LayoutParams(
                         RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
 
-                rel_btni.leftMargin = 525;
-                rel_btni.topMargin = 90;
+                rel_btni.leftMargin = 800;
+                rel_btni.topMargin = 180;
                 rel_btni.height = 175;
                 rel_btni.width = 175;
 
                 Opcions.setLayoutParams(rel_btni);
                 break;
-            case 4:
+            case 5:
                 Screen.setBackgroundResource(R.drawable.parte6);
                 break;
         }

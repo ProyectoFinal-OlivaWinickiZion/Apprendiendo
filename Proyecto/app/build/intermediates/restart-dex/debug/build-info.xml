@@ -6,37 +6,34 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1502400508447"
+    timestamp="1502412318524"
     token="-4233265023516530620"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="628" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="34" />
+        duration="0" />
     <task
         name="verifier"
-        duration="6" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
+        location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1502400390105"
+        timestamp="1502411345437"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
@@ -67,14 +64,25 @@
         <artifact
             location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1502400508447"
+        timestamp="1502412235699"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1502412318524"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
