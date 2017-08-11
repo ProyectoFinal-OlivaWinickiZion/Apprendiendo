@@ -1,5 +1,6 @@
 package com.poryectofinal.proyecto;
 
+import android.content.DialogInterface;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.app.Service;
@@ -7,6 +8,7 @@ import android.content.Intent;
 import android.graphics.PixelFormat;
 import android.opengl.Visibility;
 import android.os.IBinder;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -227,11 +229,6 @@ public class FloatingViewService extends Service {
                 //LO DE LINEARLAYOUT NO ANDA, LO QUE TENDRIA QUE MOSTRAR QUE SERIA EL BOTON DE REPETIR NO LO HACE, REVISAR EL XML Y EL JAVA
                 //INCLUYENDO EL REPEAT Y LOS PASOS SIGUIENTES Y ANTERIORES
                 Pasos();
-
-                Toast MensajeFin;
-                MensajeFin = Toast.makeText(this, "No hay mas pasos, si no pudo lograrlo vuelva para atras y si lo logro puede ir a ver mas cursos", Toast.LENGTH_LONG);
-                MensajeFin.show();
-
                /*
                 ImageButton PasoSig = (ImageButton) mFloatingView.findViewById(R.id.PasoSig);
                 ImageButton PasoAnt = (ImageButton) mFloatingView.findViewById(R.id.PasoAnt);
@@ -279,9 +276,7 @@ public class FloatingViewService extends Service {
         } else {
             if (PorQuePasoVoy == 5) {
                 Pasos();
-                Toast MensajeFin;
-                MensajeFin = Toast.makeText(this, "No hay mas pasos, si no pudo lograrlo vuelva para atras y si lo logro puede ir a ver mas cursos", Toast.LENGTH_LONG);
-                MensajeFin.show();
+
                 /*
                 ImageButton PasoSig = (ImageButton) mFloatingView.findViewById(R.id.PasoSig);
 
@@ -329,7 +324,7 @@ public class FloatingViewService extends Service {
                         RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
 
                 rel_btn.leftMargin = 850;
-                rel_btn.topMargin = 1055;
+                rel_btn.topMargin = 1155;
                 rel_btn.height = 150;
                 rel_btn.width = 150;
 
@@ -355,7 +350,7 @@ public class FloatingViewService extends Service {
                         RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
 
                 rel_btnsi.leftMargin = 800;
-                rel_btnsi.topMargin = 950;
+                rel_btnsi.topMargin = 850;
                 rel_btnsi.height = 150;
                 rel_btnsi.width = 150;
 
@@ -368,7 +363,7 @@ public class FloatingViewService extends Service {
                         RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
 
                 rel_btni.leftMargin = 800;
-                rel_btni.topMargin = 180;
+                rel_btni.topMargin = 100;
                 rel_btni.height = 175;
                 rel_btni.width = 175;
 
@@ -376,10 +371,49 @@ public class FloatingViewService extends Service {
                 break;
             case 5:
                 Screen.setBackgroundResource(R.drawable.parte6);
+                RelativeLayout.LayoutParams rel_btnis = new RelativeLayout.LayoutParams(
+                        RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
+
+                rel_btnis.leftMargin = 800;
+                rel_btnis.topMargin = 300;
+                rel_btnis.height = 175;
+                rel_btnis.width = 175;
+
+                Opcions.setLayoutParams(rel_btnis);
                 break;
+
+
         }
+        if (PorQuePasoVoy == 5) {
+            AlertDialog.Builder dialogo1 = new AlertDialog.Builder(this);
+            dialogo1.setTitle("Importante");
+            dialogo1.setMessage("La leccion ha terminado, ¿Quieres volver a la aplicacion?");
+            dialogo1.setCancelable(false);
+            dialogo1.setPositiveButton("SI", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialogo1, int id) {
+                    aceptar();
+                }
+            });
+            dialogo1.setNegativeButton("NO", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialogo1, int id) {
+                    cancelar();
+                }
+            });
+            dialogo1.show();
+        }
+    }
+
+    public void aceptar() {
+        Intent AInicio = new Intent(this, MainActivity.class);
+        startActivity(AInicio);
+        onDestroy();
+    }
+
+    public void cancelar() {
 
     }
+
+
 
 
 

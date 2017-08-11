@@ -50,10 +50,9 @@ public class consejos extends AppCompatActivity {
         // layouts of all welcome sliders
         // add few more layouts if you want
         layouts = new int[]{
-                R.layout.welcome_slide1,
-                R.layout.welcome_slide2,
-                R.layout.welcome_slide3,
-                R.layout.welcome_slide4};
+                R.layout.slide1,
+                R.layout.slide2,
+                R.layout.slide3,};
 
         // adding bottom dots
         addBottomDots(0);
@@ -101,6 +100,7 @@ public class consejos extends AppCompatActivity {
             dots[i].setTextSize(35);
             dots[i].setTextColor(colorsInactive[currentPage]);
             dotsLayout.addView(dots[i]);
+            
         }
 
         if (dots.length > 0)
@@ -111,8 +111,8 @@ public class consejos extends AppCompatActivity {
         return viewPager.getCurrentItem() + i;
     }
 
-    private void launchHomeScreen() { 
-        startActivity(new Intent(this, panelquisqui.class));
+    private void launchHomeScreen() {
+        startActivity(new Intent(this, MainActivity.class));
         finish();
     }
 

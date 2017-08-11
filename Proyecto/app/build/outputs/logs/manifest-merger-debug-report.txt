@@ -1,100 +1,100 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:2:1-34:12
+ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:2:1-34:12
 	package
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:3:5-41
-		INJECTED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:5:5-78
+ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:5:5-78
 	android:name
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:5:22-75
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:5:22-75
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:6:5-66
+ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:6:5-66
 	android:name
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:8:5-32:19
-MERGED from [com.android.support:cardview-v7:23.0.1] C:\Users\Tomas Winicki\.android\build-cache\4f31cfa0aeeeffd79deade65a81bb9cb34831d83\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:23.4.0] C:\Users\Tomas Winicki\.android\build-cache\30ecd2bc756017d3c23229b25de304322bb6c315\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Tomas Winicki\.android\build-cache\ab2fb3708b77aa64080d532e3196deee139ff73e\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Tomas Winicki\.android\build-cache\21bc6d919de2d9b6ea89036ee56c8911b1f62b23\output\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Tomas Winicki\.android\build-cache\eb4d3da541329440ee25346f87dc1749b2bb2338\output\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Tomas Winicki\.android\build-cache\bcf0ee5c6604152162599aef2c4372067f431c0a\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tomas Winicki\.android\build-cache\d6d83eed80b12edf29ed4b651f33d521282104c6\output\AndroidManifest.xml:9:5-20
+ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:8:5-32:19
+MERGED from [com.android.support:cardview-v7:23.0.1] C:\Users\42647486\.android\build-cache\416f7be768f0d5402da9beb5b078804c0334968c\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.4.0] C:\Users\42647486\.android\build-cache\09d39b97587aa8e576955c6190822951bf36cacd\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\42647486\.android\build-cache\d6a24af79496941a7e73476298afeb518ca93d28\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\42647486\.android\build-cache\1d75914ae7b075ff2691712c89324199113806d4\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\42647486\.android\build-cache\b847395b29fe136ddfc66f15dd24ad1fb5156332\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\42647486\.android\build-cache\e0a4a155af8f5b184adb2ba1e80a9abf1ee08038\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\42647486\.android\build-cache\320770101d25cf09e62f2ee923992912399cee64\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:11:9-44
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:11:9-44
 	android:supportsRtl
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:13:9-35
 	android:roundIcon
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:12:9-54
 	android:allowBackup
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:9:9-35
 	android:icon
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:10:9-43
 	android:theme
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:14:9-38
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:14:9-38
 activity#com.poryectofinal.proyecto.welcome
-ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:15:9-21:20
+ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:15:19-42
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:15:19-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:19:27-74
 activity#com.poryectofinal.proyecto.Cursos
-ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:22:9-44
+ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:22:9-44
 	android:name
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:22:19-41
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:22:19-41
 service#com.poryectofinal.proyecto.FloatingViewService
-ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:24:9-27:40
+ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:24:9-27:40
 	android:enabled
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:26:13-35
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:26:13-35
 	android:exported
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:27:13-37
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:25:13-48
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:25:13-48
 activity#com.poryectofinal.proyecto.panelquisqui
-ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:29:9-50
+ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:29:9-50
 	android:name
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:29:19-47
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:29:19-47
 activity#com.poryectofinal.proyecto.MainActivity
-ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:30:9-50
+ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:30:9-50
 	android:name
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:30:19-47
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:30:19-47
 activity#com.poryectofinal.proyecto.consejos
-ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:31:9-55
+ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:31:9-55
 	android:name
-		ADDED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml:31:19-43
+		ADDED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml:31:19-43
 uses-sdk
-INJECTED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:cardview-v7:23.0.1] C:\Users\Tomas Winicki\.android\build-cache\4f31cfa0aeeeffd79deade65a81bb9cb34831d83\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:23.4.0] C:\Users\Tomas Winicki\.android\build-cache\30ecd2bc756017d3c23229b25de304322bb6c315\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\Tomas Winicki\.android\build-cache\8f5c2e51b086fe22a083244b4122029d16e2edf1\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Tomas Winicki\.android\build-cache\ab2fb3708b77aa64080d532e3196deee139ff73e\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Tomas Winicki\.android\build-cache\21bc6d919de2d9b6ea89036ee56c8911b1f62b23\output\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Tomas Winicki\.android\build-cache\eb4d3da541329440ee25346f87dc1749b2bb2338\output\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Tomas Winicki\.android\build-cache\bcf0ee5c6604152162599aef2c4372067f431c0a\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tomas Winicki\.android\build-cache\d6d83eed80b12edf29ed4b651f33d521282104c6\output\AndroidManifest.xml:5:5-7:41
+INJECTED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:cardview-v7:23.0.1] C:\Users\42647486\.android\build-cache\416f7be768f0d5402da9beb5b078804c0334968c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.4.0] C:\Users\42647486\.android\build-cache\09d39b97587aa8e576955c6190822951bf36cacd\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\42647486\.android\build-cache\8914429d55bb245725310cd96f9419a6158438bd\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\42647486\.android\build-cache\d6a24af79496941a7e73476298afeb518ca93d28\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\42647486\.android\build-cache\1d75914ae7b075ff2691712c89324199113806d4\output\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\42647486\.android\build-cache\b847395b29fe136ddfc66f15dd24ad1fb5156332\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\42647486\.android\build-cache\e0a4a155af8f5b184adb2ba1e80a9abf1ee08038\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\42647486\.android\build-cache\320770101d25cf09e62f2ee923992912399cee64\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Tomas Winicki\.android\build-cache\ab2fb3708b77aa64080d532e3196deee139ff73e\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\42647486\.android\build-cache\d6a24af79496941a7e73476298afeb518ca93d28\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\src\main\AndroidManifest.xml

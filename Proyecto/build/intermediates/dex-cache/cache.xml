@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="386916b34a73426a9b6f9938b545660b7a73fedb">
+        <dex dex="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e7add7c77518f4296dae8d97749dce557c968152\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a8b8f98e09341bc0e6e8fde3405cbe9c9602c9e7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="360b6451fc8b1a41ec3059ce47253a5b03db51c7">
-        <dex dex="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d42f76e03e46b194719190e8b318fe7a44ea59bd\classes.dex" />
+        <dex dex="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_87a2df513c6aa5818ebdef0225ca49c8ea920518\classes.dex" />
     </item>
 
 </items>

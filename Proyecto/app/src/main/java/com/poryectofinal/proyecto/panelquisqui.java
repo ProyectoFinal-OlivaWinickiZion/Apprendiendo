@@ -11,9 +11,10 @@ public class panelquisqui extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_panelquisqui);
+        Slide();
     }
 
-    public void Slide(View vista)
+    public void Slide()
     {
         Intent Pasada = new Intent(this, consejos.class);
         startActivity(Pasada);

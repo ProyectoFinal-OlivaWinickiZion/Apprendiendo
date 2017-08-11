@@ -6,83 +6,75 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1502412318524"
-    token="-4233265023516530620"
+    timestamp="1502457127070"
+    token="7159251427995605417"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1125" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="47" />
     <task
         name="verifier"
-        duration="0" />
+        duration="391" />
 
     <artifact
-        location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1502411345437"
+        timestamp="1502456767514"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\outputs\apk\app-debug.apk"
+            location="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1502412235699"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1502412318524"
+        timestamp="1502457127070"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Tomas Winicki\Desktop\Proyectos Android\Proyecto-Final-NombreADefinir\Proyecto\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="Z:\PROYECTO_FINAL\Pruebas WINICKI\BranchPrueba\Apprendiendo\Proyecto\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>
